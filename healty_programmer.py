@@ -19,9 +19,9 @@ if __name__ == '__main__':
     init_water=time()
     init_eye = time()
     init_phy = time()
-    watersec=30*60
-    eyesec = 35*60
-    physec = 40*60
+    watersec=60*60
+    eyesec = 65*60
+    physec = 70*60
     while True:
         if time()-init_water > watersec:
             print("water drinking time and write \npress  'stop' to stop alarm")
