@@ -38,5 +38,5 @@ if __name__ == '__main__':
             musiconloop("sound.mp3.mp3","stop")
             init_phy=time()
             log_now("physical exercise done at:")
-            break
+            
 
